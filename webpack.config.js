@@ -31,10 +31,6 @@ module.exports = {
     module: { // 添加需要的rules
         rules: [
             {
-                test: /\.json$/, // 处理json
-                use: [ 'json-loader' ]
-            },
-            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
